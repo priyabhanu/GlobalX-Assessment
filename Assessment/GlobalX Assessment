@@ -1,0 +1,14 @@
+ GlobalX Assessment
+
+ -- The language used for the assessment is Java version 1.8. By the help of BufferedReader(inbuilt class available in the java library to read the lines of a text file one by one), the names in "Names.txt"was read line by line.
+
+ -- An inbuilt interface Comparator is used to compare the lastNames after splitting the strings in each line. The class Collections available in java utils library is used to sort it, by using Collections.Sort.
+
+ -- An inbuilt class BufferedWriter is used to write the output to a different file. In this case it is "surnames.txt".
+
+ Compiled by using:
+ javac Sort.java
+
+ Executed by using :- java Sort
+
+ After execution, the sorted lastNames can be seen in the output file "surnames.txt"
